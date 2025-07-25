@@ -1,0 +1,129 @@
+.section1 {
+  height: 80vh;
+  width: 100vw;
+  background-image: url(../public/images/home_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: cal(20vh+3px);
+}
+
+.main-texts {
+  font-family: "Rowdies";
+  position: relative;
+  color: white;
+  z-index: 1;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.text1 span {
+  color: red;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.text1 {
+  font-size: 40px;
+}
+
+.text2 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.text3 {
+  font-size: 16px;
+  width: 500px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.readmore {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  font-family: "Rowdies";
+}
+
+.readmore:hover {
+  background-color: rgb(184, 26, 26);
+  cursor: pointer;
+}
+
+.now-showing {
+  max-width: 90vw;
+  display: flex;
+  margin: auto;
+  color: white;
+  font-family: "Rowdies";
+  padding-top: 30px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
+}
+
+.section2 {
+  max-width: 90vw;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.movie-box {
+  width: 350px;
+  height: 550px;
+  background-color: #202039;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: larger;
+  color: white;
+  font-family: "Rowdies";
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.movie-box img {
+  padding-top: 20px;
+  height: 450px;
+}
+
+.movie-name {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: red;
+}
+
+.no-movies-found {
+  color: white;
+  background-color: #151524;
+  align-items: center;
+  padding: 24px 0;
+  padding-left: 10px;
+}

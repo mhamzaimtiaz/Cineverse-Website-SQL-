@@ -1,0 +1,38 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: white;
+    padding: 40px 0;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.login-form input, .login-form button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Rowdies';
+}
+
+.login-form button{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form button:hover{
+    background-color: rgb(184, 26, 26);
+}
+
+.login-error{
+    text-align: center;
+    color: red;
+}

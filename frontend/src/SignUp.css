@@ -1,0 +1,47 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: white;
+    padding: 40px 0;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.signup-form input, .signup-form button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Rowdies';
+}
+
+.signup-form button, .login-button-signup{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-form button:hover, .login-button-signup:hover{
+    background-color: rgb(184, 26, 26);
+}
+
+.login-button-signup{
+    padding: 8px 24px;
+    font-family: 'Rowdies';
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.signup-error{
+    text-align: center;
+    color: red;
+}

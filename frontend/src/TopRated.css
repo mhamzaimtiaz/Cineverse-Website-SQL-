@@ -1,0 +1,33 @@
+.toprated-box{
+    display: flex;
+    max-width: 80vw;
+    margin: 80px auto;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.toprated-box img{
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 55vh;
+    margin-left: 30px;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.details div{
+    font-size: 24px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.768);
+    text-align: center;
+    padding: 20px 0;
+}

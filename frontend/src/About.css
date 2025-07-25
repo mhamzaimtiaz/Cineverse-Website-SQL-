@@ -1,0 +1,40 @@
+.about-container {
+  max-width: 60vw;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.about-container h1 {
+  color: #e50914;
+  margin-bottom: 15px;
+}
+
+.about-container h2 {
+  margin-top: 26px;
+}
+
+.about-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.about-container .highlight {
+  color: #e50914;
+  font-weight: bold;
+}
+
+.about-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-container ul li {
+  font-size: 1.1em;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}

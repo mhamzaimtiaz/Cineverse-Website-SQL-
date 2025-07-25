@@ -1,0 +1,55 @@
+.confirmation-outer-box{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Rowdies';
+    padding: 50px 0;
+    max-width: 80vw;
+    margin: auto;
+    gap: 30px;
+}
+
+.success-heading{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.confirmation-inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.seats-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.finish-button{
+    border: none;
+    border-radius: 7px;
+    background-color: red;
+    font-family: 'Rowdies';
+    color: white;
+    padding: 8px 12px;
+    width: 80px;
+}
+
+.finish-button:hover{
+    cursor: pointer;
+    background-color: rgb(184, 26, 26);
+}
+
+.seat-num-box{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}

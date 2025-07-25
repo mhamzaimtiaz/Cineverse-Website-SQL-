@@ -1,0 +1,210 @@
+.sec1{
+    max-width: 100vw;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.sec1 img{
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.sec2{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.description{
+    width: 600px;
+}
+
+.sec2 .heading{
+    color: red;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.sec3 > :nth-child(1){
+    font-size: 26px;
+    color: red;
+}
+
+.timings{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    gap: 15px;
+}
+
+.showtime-box{
+    display: flex;
+    gap: 40px;
+    height: 60px;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-box{
+    width: max-content;
+    padding: 7px 26px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.time-box:hover{
+    background-color: rgba(184, 26, 26);
+}
+
+.date{
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: red;
+    text-underline-offset: 3px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.noshow-box{
+    width: max-content;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+.trailer-button{
+    background-color: red;
+    color: white;
+    font-family: 'Rowdies';
+    padding: 8px 0;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.trailer-button:hover{
+    cursor: pointer;
+    background-color: rgb(184, 26, 26);
+}
+
+.reviews-container{
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+.reviews-container h2{
+    color: red;
+    padding-bottom: 10px;
+}
+
+.new-review{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.new-review textarea{
+    display: block;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 35vw;
+    height: 15vh;
+    font-family: 'Rowdies';
+    padding: 5px;
+}
+
+.new-review button{
+    width: 80px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    font-family: 'Rowdies';
+    border: none;
+    border-radius: 6px;
+}
+
+.new-review button:hover{
+    cursor: pointer;
+    background-color: rgb(184, 26, 26);
+}
+
+.review-box{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.rev-text{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.rev-user-name{
+    background-color: red;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.rev-time{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+    font-size: small;
+}
+
+.no-reviews{
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.rev-line{
+    width: 80vw;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.156);
+}
+
+.delete-button{
+    padding: 5px;
+}
+
+.delete-button:hover{
+    background-color: red;
+    border-radius: 100%;
+}

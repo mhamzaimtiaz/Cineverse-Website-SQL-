@@ -1,0 +1,97 @@
+footer {
+  padding: 15px 0;
+  display: flex;
+  font-family: "Rowdies";
+  color: white;
+  max-width: 80vw;
+  margin: auto;
+  gap: 100px;
+  margin-bottom: 20px;
+}
+
+.genres> :nth-child(1) {
+  font-size: 20px;
+  color: red;
+  padding-bottom: 10px;
+}
+
+.gen-opt:hover{
+  cursor: pointer;
+}
+
+.genre-options{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+
+}
+
+.subscribe> :nth-child(1) {
+  font-size: 20px;
+  color: red;
+}
+
+.subscribe input {
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  padding: 9px 0 9px 10px;
+  font-family: 'Rowdies';
+}
+
+.subscribe button {
+  font-family: "Rowdies";
+  width: 80px;
+  padding: 7px 0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+}
+
+.subscribe button:hover {
+  cursor: pointer;
+  background-color: rgb(184, 26, 26);
+}
+
+.footer-socialicons{
+  display: flex;
+  gap: 8px;
+}
+
+.social-cr {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-cr>:nth-child(1) {
+  font-size: 20px;
+  color: red;
+}
+
+.social-cr .cr {
+  font-size: 20px;
+  color: red;
+}
+
+.ft-icon:hover{
+  cursor: pointer;
+}
+
+.subscribe-error{
+  color: red;
+  font-size: smaller;
+}
+
+.subscribe-success{
+  color: white;
+  font-size: smaller;
+}

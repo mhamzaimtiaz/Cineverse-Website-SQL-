@@ -1,0 +1,44 @@
+.booking-details-box{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.quantity-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quantity-button{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    font-size: larger;
+}
+
+.total-bill{
+    font-size: larger;
+}
+
+.next-button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-family: 'Rowdies';
+    border-radius: 5px;
+}
+
+.next-button:hover, .quantity-button:hover{
+    background-color: rgb(184, 26, 26);
+    cursor: pointer;
+}
